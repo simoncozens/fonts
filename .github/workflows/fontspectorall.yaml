@@ -14,6 +14,11 @@ jobs:
         run: sudo apt-get install protobuf-compiler
       - name: Install Rust
         uses: actions-rust-lang/setup-rust-toolchain@v1
+      - uses: thejerrybao/setup-swap-space@v1
+        with:
+          swap-space-path: /swapfile
+          swap-size-gb: 8
+          remove-existing-swap-files: true
       - name: Build fontspector
         run: cargo install --git https://github.com/fonttools/fontspector --features duckdb
       - name: Test all the things
