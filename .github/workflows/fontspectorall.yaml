@@ -21,7 +21,7 @@ jobs:
       - name: Upload results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: .ci/fontspector.db
+          file_pattern: .ci/fontspector-dashboard/src/fontspector.db
       - name: Rebuild dashboard
         run: rm -rf fontspector-dashboard && cd .ci/fontspector-dashboard && npm install && npm run build
       - name: Upload results
