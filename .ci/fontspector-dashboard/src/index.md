@@ -1,12 +1,9 @@
 ---
 toc: false
-sql:
-  fontspector: ./fontspector.db
 ---
 
 ```js
-
-import { runs } from "./runs.js";
+const allResults = FileAttachment("./results.json").json();
 
 const categoricals = {
     type: "categorical",
@@ -14,36 +11,15 @@ const categoricals = {
     range: ["#2182bf", "#bdae4f", "#cf4f2b", "#ff0000"],
     legend: true
   };
-
-let allRuns = await runs();
-let [latestRun, previousRun, ...olderRuns] = allRuns;
 ```
-
-```sql id=last_run
-select status, count(status) as count
-  FROM (SELECT * FROM fontspector.results WHERE epoch_ms(run) == ${latestRun})
-  where status == 'WARN' or status == 'FAIL'
-  group by status
-```
-
-```js
-const warns = last_run.toArray()[0];
-const fails = last_run.toArray()[1];
-```
-
-```sql id=fails_by_run
-select run, status, count(status) as count from fontspector.results
-where status == 'WARN' or status == 'FAIL'
-group by status, run
-order by run, status;
-```
-
 
 <div class="hero">
   <h1> Google Fonts QA </h1>
-  <h2> ${ warns.status }s last run: <span class="huge warn">${ warns.count }</h2>
-  <h2> ${ fails.status }s last run: <span class="huge fail">${ fails.count }</h2>
+  <h2> WARNs last run: <span class="huge warn">${ allResults.headline.WARN }</h2>
+  <h2> FAILs last run: <span class="huge fail">${ allResults.headline.FAIL }</h2>
 </div>
+
+
 <div class="card">
 
 ## Overall failures
@@ -53,11 +29,11 @@ Plot.plot({
   marks: [
     Plot.ruleY([0]),
     Plot.line(
-      fails_by_run,
-      Plot.stackY2({ y: "count", x: "run", stroke: "status" })
+      allResults.fails_by_run,
+      Plot.stackY2({ y: "count", x: (d) => new Date(d.run), stroke: "status" })
     ),
     Plot.dot(
-      fails_by_run,
+      allResults.fails_by_run,
       Plot.stackY2(
         { y: "count", x: "run", fill: "status", "tip": true }
       )
@@ -70,31 +46,29 @@ Plot.plot({
 
 </div>
 
-<div class="runslider">
 
-Select run:
+<div>
+
+<hr>
+
+<div class="runslider">
+<p>Select run:</p>
 
 ```js
-const runSlider = view(html`<input type=range step=1 min=0 max=${allRuns.length-1} value=${allRuns.length-1}>`)
+const runSlider = view(html`<input type=range step=1 min=0 max=${allResults.allRuns.length-1} value=${allResults.allRuns.length-1}>`)
 ```
 
 ```js
-const selectedRun = allRuns[allRuns.length-(1+runSlider)]
+const selectedRun = allResults.allRuns[allResults.allRuns.length-(1+runSlider)]
 ```
 
 <span class="when">${(new Date(selectedRun)).toISOString().replace("T", " ").replace(/\.\d+Z$/, "") }</span>
 </div>
 
+
 <div class="grid grid-cols-2">
   <div class="card">
     <h2>Most failing checks</h2>
-
-```sql id=most_failing_checks
-select check_id, status, count(status) as count
-  FROM (SELECT * FROM fontspector.results WHERE epoch_ms(run) == ${allRuns[runSlider]})
-  where status == 'FAIL' or status == 'ERROR' or status == 'WARN'
-  group by check_id, status order by count desc limit 20;
-```
 
 ```js
 Plot.plot({
@@ -107,29 +81,22 @@ Plot.plot({
   color: categoricals,
   marks: [
     Plot.ruleY([0]),
-    Plot.rectY(most_failing_checks,
+    Plot.rectY(allResults.most_failing_checks[selectedRun],
   
     { y: "count", x: "check_id", sort: {x: "y", reverse: "true"}, tip: true, fill: "status" },
   )
 ]})
 ```
+
   </div>
+
   <div class="card">
 
 ## Most failing families
 
-```sql id=most_failing_families
-select directory as family, status, count(status) as count
-  FROM (SELECT * FROM fontspector.results WHERE epoch_ms(run) == ${allRuns[runSlider]})
-  where (status == 'FAIL' or status == 'ERROR' or status == 'WARN')
-  AND family in (SELECT directory as family FROM fontspector.results WHERE status == 'FAIL' or status == 'ERROR' or status == 'WARN' group by family order by count(status) desc limit 20)
-  group by directory, status;
-```
 
 ```js
 Plot.plot({
-  marginBottom: 60,
-  
    x: {
     tickRotate: -30,
     label: null,
@@ -139,8 +106,8 @@ Plot.plot({
   marks: [
   
     Plot.ruleY([0]),
-    Plot.barY(most_failing_families,
-    { y: "count", x: "family", tip: true, fill: "status", sort: {x: "y", reverse: true} },
+    Plot.barY(allResults.most_failing_families[selectedRun],
+    { y: "count", x: "family", tip: true, fill: "status", order: "status", sort: {x: "y", reverse: true} },
   ),
 ],
 })
@@ -149,9 +116,15 @@ Plot.plot({
   </div>
 </div>
 
+</div>
+
 
 
 <style>
+
+.card {
+  height: 450px;
+}
 
 .hero {
   display: flex;
@@ -161,6 +134,14 @@ Plot.plot({
   text-wrap: balance;
   text-align: center;
 }
+
+.runslider {
+  height: 50px;
+}
+
+.runslider div { display: inline-block}
+.runslider div:first-child { display: inline-block; width: 50% ; }
+.runslider p { display: inline-block; font-family: sans-serif; }
 
 .hero h1 {
   margin: 1rem 0;
@@ -195,10 +176,6 @@ Plot.plot({
 
 .warn { color: #bdae4f; }
 .fail { color: #cf4f2b; }
-
-.runslider div { display: inline-block}
-.runslider div:first-child { display: inline-block; width: 50% ; }
-.runslider p { display: inline-block; font-family: sans-serif; }
 
 
 @media (min-width: 640px) {
