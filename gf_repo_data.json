@@ -1,6 +1,374 @@
 {
-    "last_run": "2025-03-24",
+    "last_run": "2025-03-31",
     "commits": [
+        {
+            "date": "2025-03-28T14:49:11",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "34b60e82339a59483dc2f4067ed21ffc886c217a"
+        },
+        {
+            "date": "2025-03-28T14:14:09",
+            "title": "Support LFS in the workflow run",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "94411d2e860c8ea5fff3a3086d454bc73d18f69e"
+        },
+        {
+            "date": "2025-03-28T13:06:53",
+            "title": "Move fontspectordb to LFS",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e2b9a84c46e29111e283a3535d2d1104a19b87c7"
+        },
+        {
+            "date": "2025-03-28T13:06:51",
+            "title": "Remove fontspector db",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5e839dddeaaddff6adc7d884616f20ab4e596c15"
+        },
+        {
+            "date": "2025-03-27T10:49:22",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1d957df93b4687ada516e070c93995040c10c837"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "Separate build path and git path",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e233b334a181e15df587cfc34a50176e22a0a871"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "Cache SQL output",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "017ccbdb2b353fc005c932f9a63c95c79591fb52"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "subsets: alphabetical order",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "57c607483888be806ecd544c2257f2dd5cd7798c"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "add \"math\" subset to the Noto Serif project",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "826ed48415b50d5ee71b2a7b332bd2c852b52e84"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "update Fraunces About page content, rephrase / typo fix",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "056f25062b781bf23e4ccd379bba0db5dc916314"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "revert removal of `branch` values on METADATA.pb files",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "81195da47c7d0371add5f69acbb89704a4353f95"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "Bios for Menbere and Agbalumo",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "designer",
+            "id": "0174ceaa97c2e502712ff6fe40ee37746786cebf"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "[METADATA.pb] Populate font sources related fields for a few font families.",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2f3a8c9e12ca074f28101daafb3c07aadf386429"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "Update OFL.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9ac2ca34370f1752ea454c834a3d5672f8fd2ec7"
+        },
+        {
+            "date": "2025-03-27T10:15:04",
+            "title": "Libre Baskerville: Version 1.051; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "8fd0cf32a52227148b533d7d675503f41275924d"
+        },
+        {
+            "date": "2025-03-27T02:17:02",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "bd0f94faee3fcb40fcfcb9d71c3b6788f94b46b2"
+        },
+        {
+            "date": "2025-03-26T12:29:47",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a8af5b98f6095d84d2a1d71a4a27532aafa4fe31"
+        },
+        {
+            "date": "2025-03-26T12:16:05",
+            "title": "Push correct path",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "47c529351fe510b0891c875a6c31c6969e2760b2"
+        },
+        {
+            "date": "2025-03-26T11:26:39",
+            "title": "Move database to src",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "692bf730098d5dc7b2f37e657373e2f868d02b0e"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Rebuild dashboard",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "806739677fff7ed47bd23490175b68682adc3b14"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Add dashboard source",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0ace1ca5174789f4c0ba2d6b89b578c531b8d598"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Shoot for the moon",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b0dd9269d6f97cdb63df9b44c1774dbb63cddcb4"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Do a bit more, carry on on error",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "26ca145bf0665ea84bcd1d8189fac7dc7f6c64f3"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Just check *something*",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d7a38b05ef4347789c3b8496491489b6dff55b09"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Protobuf",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "2427c9f408f566b0c4c3a16c864255316748206c"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "No swap on Mac",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3ddc3b1165d23ca743ef7887788d9f4786defc70"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Run on a Mac",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "571bcb985ec6d01d0160184c6a8add67e5c3cb83"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Swapfile",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7c662004143bd7beca9188193275909bc641d9a7"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Test all the things",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9cec5d7462372172da6e7046ac97cfb1489ff8a5"
+        },
+        {
+            "date": "2025-03-26T11:25:43",
+            "title": "Just build and cache for now",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "e8c7ef3d8ad506836751a4a366cc1f3702e285ec"
+        },
+        {
+            "date": "2025-03-26T11:25:42",
+            "title": "Try to run fontspector on everything",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "bdc38d8a5592b0c4554dac5d7f6cd0ebb31af243"
+        },
+        {
+            "date": "2025-03-26T11:08:19",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a6d8ac625c80e9eb1f9784d54fac13c49f3169c5"
+        },
+        {
+            "date": "2025-03-26T08:30:52",
+            "title": "Merge remote-tracking branch 'fork/main'",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f26eaf9a00ee8375890558e3e43ced6078ae14b6"
+        },
+        {
+            "date": "2025-03-26T07:29:32",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0f25fcba291efb2a7876a45431dd5a7d79631b48"
+        },
+        {
+            "date": "2025-03-25T20:19:07",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "36cfd96e28526a8dc8c97240b76f6d2bbb2129f6"
+        },
+        {
+            "date": "2025-03-24T17:46:45",
+            "title": "Update to_sandbox.txt (#9256)",
+            "author": "nyshadhr9",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "99783651b9e391fab22821ee55f39fe9891e030f"
+        },
+        {
+            "date": "2025-03-24T15:49:05",
+            "title": "Install interpolatable",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "af4281e88a920309d3cf3fa35cfce16fbd40cefe"
+        },
+        {
+            "date": "2025-03-24T15:26:41",
+            "title": "Rust CI fixups",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "97da03ec86c89822431a15c025033babc4e9014c"
+        },
+        {
+            "date": "2025-03-24T14:55:28",
+            "title": "Attempt to use Rust QA tooling",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "add4cafe1c8f0b9bfe4739971f2a4c8894068b1e"
+        },
+        {
+            "date": "2025-03-21T16:40:06",
+            "title": "Merge pull request #9252 from google/emmamarichal-patch-4",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "03fb543facee1c54bcbc92f12726bee9222ecb27"
+        },
+        {
+            "date": "2025-03-21T16:35:01",
+            "title": "Update to_production.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b0a6d9a681eb2fa42b86b0f78270198d586afa7e"
+        },
+        {
+            "date": "2025-03-21T13:05:45",
+            "title": "Merge pull request #9236 from google/pushlists",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "b77a1c3ebb45dbfc6d19def606b9684144250fe8"
+        },
+        {
+            "date": "2025-03-20T10:17:01",
+            "title": "Merge pull request #9237 from google/PPS-i18n-articles",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "4a8286d1e5ee2b3defb8a7f7847587542f079778"
+        },
+        {
+            "date": "2025-03-20T01:45:36",
+            "title": "Links to sibling families added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "1998c04d2c38e012a2abbf01d5e3250e3712d996"
+        },
+        {
+            "date": "2025-03-20T01:34:28",
+            "title": "PPS LGC + Thai emojis fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "15bffea98472a28e62726faff03722e251ee4429"
+        },
+        {
+            "date": "2025-03-19T16:31:40",
+            "title": "Update pushlists",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "0f8d8bf34554d8f73100adac81c14939c5369494"
+        },
         {
             "date": "2025-03-19T15:50:15",
             "title": "Update to_production.txt (#9234)",
@@ -81499,7 +81867,8 @@
         }
     ],
     "pushes": {
-        "sandbox": [
+        "sandbox": [],
+        "production": [
             {
                 "path": "ofl/specialgothiccondensedone",
                 "category": "New",
@@ -81513,16 +81882,16 @@
                 "url": "https://github.com/google/fonts/pull/9171"
             },
             {
-                "path": "ofl/42dotsans",
-                "category": "Metadata / Description / License",
+                "path": "ofl/nanummyeongjo",
+                "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9045"
+                "url": "https://github.com/google/fonts/pull/9136"
             },
             {
-                "path": "catalog/designers/jeffdavis",
-                "category": "Designer profile",
+                "path": "ofl/notosansthailooped",
+                "category": "Upgrade",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9074"
+                "url": "https://github.com/google/fonts/pull/9090"
             },
             {
                 "path": "catalog/designers/seunbadejo",
@@ -81531,162 +81900,148 @@
                 "url": "https://github.com/google/fonts/pull/9126"
             },
             {
-                "path": "lang/languages/agq_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/42dotsans",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9045"
             },
             {
-                "path": "lang/languages/apd_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/afacad",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/bap_Krai.textproto",
-                "category": "Sample texts",
+                "path": "ofl/andika",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/8509"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/bax_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/climatecrisis",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/buc_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/danfo",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/cu_Cyrl.textproto",
-                "category": "Sample texts",
+                "path": "ofl/doto",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/djc_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/gamaamli",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/dv_Diak.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexend",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/dzg_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexenddeca",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/ema_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendexa",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/en_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendgiga",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/gby_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendmega",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/gvl_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendpeta",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/lom_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendtera",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/mg_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/lexendzetta",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/nl_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/matemasie",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/nmn_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/mingzat",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/shu_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/ojuju",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/snk_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/onest",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/tda_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/tacone",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/ttq_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/taiheritagepro",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/tum_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/tiltneon",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/wdt_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/tiltprism",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
+                "url": "https://github.com/google/fonts/pull/9114"
             },
             {
-                "path": "lang/languages/yo_Latn.textproto",
-                "category": "Sample texts",
+                "path": "ofl/tiltwarp",
+                "category": "Metadata / Description / License",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            },
-            {
-                "path": "lang/scripts/Diak.textproto",
-                "category": "Sample texts",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9054"
-            }
-        ],
-        "production": [
-            {
-                "path": "ofl/notosansthailooped",
-                "category": "Upgrade",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9090"
+                "url": "https://github.com/google/fonts/pull/9114"
             }
         ]
     }
