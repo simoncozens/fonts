@@ -26,7 +26,7 @@ jobs:
       - name: Build dashboard
         run: cd .ci/fontspector-dashboard && npm install && npm run build
       - name: Add to branch
-        run: git checkout gh-pages; git rm -rf fontspector-dashboard; mv fontspector-dashboard-build fontspector-dashboard
+        run: git checkout gh-pages; git rm -rf fontspector-dashboard || true; rm -rf fontspector-dashboard || true; mv fontspector-dashboard-build fontspector-dashboard
       - name: Upload results
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
