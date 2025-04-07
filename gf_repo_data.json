@@ -1,285 +1,613 @@
 {
-    "last_run": "2025-03-31",
+    "last_run": "2025-04-07",
     "commits": [
         {
-            "date": "2025-03-28T14:49:11",
+            "date": "2025-04-06T02:01:52",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "34b60e82339a59483dc2f4067ed21ffc886c217a"
+            "id": "a4aa3caad0df0f99506228585b6fd1ddeb33bb46"
         },
         {
-            "date": "2025-03-28T14:14:09",
+            "date": "2025-04-05T02:09:09",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "907d336854e31c8ae89f292c3d1d2d3e374c9478"
+        },
+        {
+            "date": "2025-04-04T02:12:31",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f47726f4f0b21521ed777724322539c32d7da61a"
+        },
+        {
+            "date": "2025-04-03T02:20:40",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "40bd119b35e6d588c846a8dbde834555b00f5b1b"
+        },
+        {
+            "date": "2025-04-02T02:37:42",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3fdfe35760ae198d7515f273c7b864069042f5d4"
+        },
+        {
+            "date": "2025-04-01T07:55:13",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "352eaa0b429ffe2114c19f059bd7bdaaa0c1ca19"
+        },
+        {
+            "date": "2025-04-01T07:15:12",
+            "title": "Improve adding to branch",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5d00d26c44c876a59317bbdcfdd02400333b258f"
+        },
+        {
+            "date": "2025-04-01T07:13:07",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "df873acf0042225514502e1e9a43040f5371684f"
+        },
+        {
+            "date": "2025-04-01T07:13:05",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d1d95d623ba62c1a56969a24d7f8c645215fa97d"
+        },
+        {
+            "date": "2025-04-01T07:12:59",
             "title": "Support LFS in the workflow run",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "94411d2e860c8ea5fff3a3086d454bc73d18f69e"
+            "id": "6bb2d2e45143934902eb20a91d8352790f2c005d"
         },
         {
-            "date": "2025-03-28T13:06:53",
+            "date": "2025-04-01T07:12:58",
             "title": "Move fontspectordb to LFS",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "e2b9a84c46e29111e283a3535d2d1104a19b87c7"
+            "id": "c01e82c880d3f7f316aabf5ff559425b1254ab87"
         },
         {
-            "date": "2025-03-28T13:06:51",
+            "date": "2025-04-01T07:12:52",
             "title": "Remove fontspector db",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "5e839dddeaaddff6adc7d884616f20ab4e596c15"
+            "id": "b206716585c8a99e9e705db4a33ff802601b72ba"
         },
         {
-            "date": "2025-03-27T10:49:22",
+            "date": "2025-04-01T07:12:50",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "1d957df93b4687ada516e070c93995040c10c837"
+            "id": "61dd4497ac1aed08b2f264c4ab317479b6efbd11"
         },
         {
-            "date": "2025-03-27T10:15:04",
+            "date": "2025-04-01T07:12:49",
             "title": "Separate build path and git path",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "e233b334a181e15df587cfc34a50176e22a0a871"
+            "id": "b7803ce5064ffdbe0c453a33e9a2d58205e22a5b"
         },
         {
-            "date": "2025-03-27T10:15:04",
+            "date": "2025-04-01T07:12:48",
             "title": "Cache SQL output",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "017ccbdb2b353fc005c932f9a63c95c79591fb52"
+            "id": "abdbd2d29d24d532852a6f50ee88f3be684707d9"
         },
         {
-            "date": "2025-03-27T10:15:04",
-            "title": "subsets: alphabetical order",
-            "author": "Emma Marichal",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "57c607483888be806ecd544c2257f2dd5cd7798c"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "add \"math\" subset to the Noto Serif project",
-            "author": "Chris Simpkins",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "826ed48415b50d5ee71b2a7b332bd2c852b52e84"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "update Fraunces About page content, rephrase / typo fix",
-            "author": "Chris Simpkins",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "056f25062b781bf23e4ccd379bba0db5dc916314"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "revert removal of `branch` values on METADATA.pb files",
-            "author": "Felipe Corr\u00eaa da Silva Sanches",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "81195da47c7d0371add5f69acbb89704a4353f95"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "Bios for Menbere and Agbalumo",
-            "author": "Yanone",
-            "status": "modified",
-            "kind": "designer",
-            "id": "0174ceaa97c2e502712ff6fe40ee37746786cebf"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "[METADATA.pb] Populate font sources related fields for a few font families.",
-            "author": "Felipe Corr\u00eaa da Silva Sanches",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "2f3a8c9e12ca074f28101daafb3c07aadf386429"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "Update OFL.txt",
-            "author": "Emma Marichal",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "9ac2ca34370f1752ea454c834a3d5672f8fd2ec7"
-        },
-        {
-            "date": "2025-03-27T10:15:04",
-            "title": "Libre Baskerville: Version 1.051; ttfautohint (v1.8.4.7-5d5b) added",
-            "author": "Yanone",
-            "status": "modified",
-            "kind": "family",
-            "id": "8fd0cf32a52227148b533d7d675503f41275924d"
-        },
-        {
-            "date": "2025-03-27T02:17:02",
+            "date": "2025-04-01T07:12:47",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "bd0f94faee3fcb40fcfcb9d71c3b6788f94b46b2"
+            "id": "05fdf3384674a8710b8eba77e3cd939511d18502"
         },
         {
-            "date": "2025-03-26T12:29:47",
+            "date": "2025-04-01T07:12:45",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "a8af5b98f6095d84d2a1d71a4a27532aafa4fe31"
+            "id": "0dea8449f981d02faf23ff2a112cf6355a49efce"
         },
         {
-            "date": "2025-03-26T12:16:05",
+            "date": "2025-04-01T07:12:44",
             "title": "Push correct path",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "47c529351fe510b0891c875a6c31c6969e2760b2"
+            "id": "242f0a4f52f80bee9f4825d77429bb8c2318cac5"
         },
         {
-            "date": "2025-03-26T11:26:39",
-            "title": "Move database to src",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "692bf730098d5dc7b2f37e657373e2f868d02b0e"
-        },
-        {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:43",
             "title": "Rebuild dashboard",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "806739677fff7ed47bd23490175b68682adc3b14"
+            "id": "6cdc50f23f684ba8d060e4c2a4ec370ab00b0230"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:42",
             "title": "Add dashboard source",
             "author": "Simon Cozens",
-            "status": "modified",
+            "status": "new",
             "kind": "infrastructure",
-            "id": "0ace1ca5174789f4c0ba2d6b89b578c531b8d598"
+            "id": "e57708ff3dac3ad98cd9f70880edf6445e966559"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:42",
             "title": "Shoot for the moon",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "b0dd9269d6f97cdb63df9b44c1774dbb63cddcb4"
+            "id": "80ec294d79393597aa46a240ed3d5ddd904784a9"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:41",
             "title": "Do a bit more, carry on on error",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "26ca145bf0665ea84bcd1d8189fac7dc7f6c64f3"
+            "id": "7122b7a773f7e580e9c67019c544b4f77e65f32b"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:40",
             "title": "Just check *something*",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "d7a38b05ef4347789c3b8496491489b6dff55b09"
+            "id": "e797a22f936e1864f6b149afd93c2fe4513d2581"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:40",
             "title": "Protobuf",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "2427c9f408f566b0c4c3a16c864255316748206c"
+            "id": "fb4162245e08a4683b454db916b6183ffc58a57b"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:39",
             "title": "No swap on Mac",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "3ddc3b1165d23ca743ef7887788d9f4786defc70"
+            "id": "2598b1b161701161014424590b61cc7ed0aa7731"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:38",
             "title": "Run on a Mac",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "571bcb985ec6d01d0160184c6a8add67e5c3cb83"
+            "id": "604a0d82d7747eddf47aef3fb77a7bb45140b7f4"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:38",
             "title": "Swapfile",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "7c662004143bd7beca9188193275909bc641d9a7"
+            "id": "22ade7f468c9b936baaa10c34410269510e00870"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:37",
             "title": "Test all the things",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "9cec5d7462372172da6e7046ac97cfb1489ff8a5"
+            "id": "b1b389248c7f7836c0c51dd1038036ce584518d7"
         },
         {
-            "date": "2025-03-26T11:25:43",
+            "date": "2025-04-01T07:12:36",
             "title": "Just build and cache for now",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "e8c7ef3d8ad506836751a4a366cc1f3702e285ec"
+            "id": "b2eeb937c03cb22cc95b5cce6f71a7b2fded7943"
         },
         {
-            "date": "2025-03-26T11:25:42",
+            "date": "2025-04-01T07:12:36",
             "title": "Try to run fontspector on everything",
             "author": "Simon Cozens",
             "status": "new",
             "kind": "infrastructure",
-            "id": "bdc38d8a5592b0c4554dac5d7f6cd0ebb31af243"
+            "id": "36481b37a9f696e0068c8ef1bf05896ba2ff4e0a"
         },
         {
-            "date": "2025-03-26T11:08:19",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "a6d8ac625c80e9eb1f9784d54fac13c49f3169c5"
-        },
-        {
-            "date": "2025-03-26T08:30:52",
-            "title": "Merge remote-tracking branch 'fork/main'",
+            "date": "2025-04-01T07:12:35",
+            "title": "Move database to src",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "f26eaf9a00ee8375890558e3e43ced6078ae14b6"
+            "id": "7c3e3fcf82e1c01a257a96e9cbc93ec2932f889f"
         },
         {
-            "date": "2025-03-26T07:29:32",
+            "date": "2025-04-01T07:12:34",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "0f25fcba291efb2a7876a45431dd5a7d79631b48"
+            "id": "0c4e442f9853309f5df0eb0da9bcbf6603945405"
         },
         {
-            "date": "2025-03-25T20:19:07",
+            "date": "2025-04-01T07:12:33",
             "title": "Apply automatic changes",
             "author": "simoncozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "36cfd96e28526a8dc8c97240b76f6d2bbb2129f6"
+            "id": "639a2ea1d31b831d44eb59faed7aa9c80f061915"
+        },
+        {
+            "date": "2025-04-01T07:12:32",
+            "title": "Apply automatic changes",
+            "author": "simoncozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "ec33e8b4ec74751f4daa1960ca61b9e9f661fa5c"
+        },
+        {
+            "date": "2025-04-01T07:12:31",
+            "title": "Install interpolatable",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4ae5edc1cd6b42c01caaf0b5c18621185594e099"
+        },
+        {
+            "date": "2025-04-01T07:12:30",
+            "title": "Rust CI fixups",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "905524a0677fa2413a46da4559b307d780085378"
+        },
+        {
+            "date": "2025-04-01T07:12:30",
+            "title": "Attempt to use Rust QA tooling",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "fcebd365421a8406d11b8e86da756a658374d6dd"
+        },
+        {
+            "date": "2025-04-01T05:15:10",
+            "title": "Merge pull request #9287 from felipesanches/batch_4_of_4__repo_commit_entries_from_fontc_crater_targets_json",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "491bf5cb12723e619e73eee5118ca4abf2b4ddcc"
+        },
+        {
+            "date": "2025-04-01T05:14:51",
+            "title": "Merge pull request #9286 from felipesanches/batch_3_of_4__repo_commit_entries_from_fontc_crater_targets_json",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "c19323982846c5c79b87c507d273ebd9084f6774"
+        },
+        {
+            "date": "2025-04-01T05:14:18",
+            "title": "Merge pull request #9285 from felipesanches/batch_2_of_4__repo_commit_entries_from_fontc_crater_targets_json",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9ed1d894e62c629cdff10fcbad599764e4b03310"
+        },
+        {
+            "date": "2025-04-01T05:14:02",
+            "title": "Merge pull request #9284 from felipesanches/batch_1_of_4__repo_commit_entries_from_fontc_crater_targets_json",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "71e78e6882a0dfc931233ff9638a9055ecb3e235"
+        },
+        {
+            "date": "2025-03-31T20:20:53",
+            "title": "[Batch 4/4] port info from fontc_crater targets list",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "8cd19016a025e4b444a2421a822f5d35514c51fe"
+        },
+        {
+            "date": "2025-03-31T20:19:52",
+            "title": "[batch 3/4] port info from fontc_crater targets list",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "5fa1b4a6c5feaaab0c0e09a568f3d332bcab355b"
+        },
+        {
+            "date": "2025-03-31T20:18:42",
+            "title": "[Batch 2/4] port info from fontc_crater targets list",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "4ad8ac680573a3b43e2c9637f7cad3fcfc5648d1"
+        },
+        {
+            "date": "2025-03-31T20:17:43",
+            "title": "[Batch 1/4] port info from fontc_crater targets list",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "19cdcec59967f4aa6defb86bd0550dff1ac43abb"
+        },
+        {
+            "date": "2025-03-31T09:40:40",
+            "title": "Merge pull request #9248 from google/emmamarichal-patch-3",
+            "author": "Marc Foley",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7a52693c6f33db2c0fae7506763a6614b0c66457"
+        },
+        {
+            "date": "2025-03-28T14:16:20",
+            "title": "Merge pull request #9277 from google/tolists_2803",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "0e2ffbbdd4498a66f8f3de0a9f99beefe3a03f6c"
+        },
+        {
+            "date": "2025-03-28T14:07:26",
+            "title": "Lists of the 28th of March",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "479c318250529316703ae631885551a3347f4bef"
+        },
+        {
+            "date": "2025-03-28T13:45:52",
+            "title": "Merge pull request #9273 from google/gftools_packager_ofl_playpensanshebrew",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f82576ee706a49a5438e2981ab7a0348793653d7"
+        },
+        {
+            "date": "2025-03-28T09:45:50",
+            "title": "Merge pull request #9276 from google/emmamarichal-patch-5",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "56ece017c3a00a5cdff7effa49721252a8c78e23"
+        },
+        {
+            "date": "2025-03-28T09:09:10",
+            "title": "Tiny correction in ARTICLE.en_us.html",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d73dffc10e376849064fa4c49366134f2a975cad"
+        },
+        {
+            "date": "2025-03-28T09:05:54",
+            "title": "Merge pull request #9271 from google/gftools_packager_ofl_playpensansdeva",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "091b14565625758a41d6eb87ffff32fdbd46a83c"
+        },
+        {
+            "date": "2025-03-28T09:03:19",
+            "title": "Merge pull request #9272 from google/GunjanPanchal",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "0c5315026b490f877098804a550d9e98c5537c73"
+        },
+        {
+            "date": "2025-03-28T09:02:24",
+            "title": "Merge pull request #9262 from google/PPS-i18n-articles-video",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "70dbd8798851c68aa621422ea70cfad8414150ed"
+        },
+        {
+            "date": "2025-03-28T09:02:14",
+            "title": "Merge pull request #9267 from google/RobotoF-YT-video",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "6bc46b6c2ff794b53c736be433878e20d1a84729"
+        },
+        {
+            "date": "2025-03-27T23:23:16",
+            "title": "Playpen Sans Hebrew: Version 2.000 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "635fe1f5046e82a2910c5a5b5d7a5590498f605d"
+        },
+        {
+            "date": "2025-03-27T23:16:22",
+            "title": "PPS Deva Gunjan Panchal designer added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "40e399554e8515c865a43ff45dd35371e1bcd9dd"
+        },
+        {
+            "date": "2025-03-27T23:10:10",
+            "title": "PPS Deva article added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "9a2dd8651cd3fbe4fd88899909a8836b5019f1a4"
+        },
+        {
+            "date": "2025-03-27T23:02:55",
+            "title": "Playpen Sans Deva: Version 2.000 added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "c6dea74f18ae82e6aaa2120f0a36af231c1e7e62"
+        },
+        {
+            "date": "2025-03-27T15:46:53",
+            "title": "YouTube links fix",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "9a6d3f981b2b74c70fec72961a65c1e06fcc4b2c"
+        },
+        {
+            "date": "2025-03-27T15:36:08",
+            "title": "Update Anton families to display (#9269)",
+            "author": "Tomas",
+            "status": "modified",
+            "kind": "family",
+            "id": "512423b4833aeb1e56013b08cefeea9615961ca4"
+        },
+        {
+            "date": "2025-03-27T14:21:25",
+            "title": "PPS i18n video cover image added",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6a5907d4f4b17caf26eb35772609c48e42c8ed09"
+        },
+        {
+            "date": "2025-03-27T09:21:06",
+            "title": "Merge pull request #9263 from google/chrissimpkins-notoserif-metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "77e8b85357f9f2d676ca799b5dbfe53bc82fb9b7"
+        },
+        {
+            "date": "2025-03-27T08:27:23",
+            "title": "Merge pull request #9264 from google/chrissimpkins-fraunces-docs",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3181a91a46c0fcee94ae1cddb2a9c42e37a4d907"
+        },
+        {
+            "date": "2025-03-27T08:25:26",
+            "title": "subsets: alphabetical order",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "3be6760eae974f4c107d6ee16bfeef66bbf537cc"
+        },
+        {
+            "date": "2025-03-27T07:54:53",
+            "title": "Merge pull request #9266 from felipesanches/revert_removal_of_a_few_METADATA.pb_branch_values",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f3d76a070d47697d9136e78173073070429eeaa3"
+        },
+        {
+            "date": "2025-03-26T22:40:43",
+            "title": "Roboto Flex YouTube video format update",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "6e9f99162e5ac1d76fa5a29c65bc83d73a366024"
+        },
+        {
+            "date": "2025-03-26T22:34:31",
+            "title": "PPS articles: YouTube link formatting change",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "family",
+            "id": "4b5f5175d37be35163b56e80bf42cca05a2d7ed5"
+        },
+        {
+            "date": "2025-03-26T21:23:18",
+            "title": "revert removal of `branch` values on METADATA.pb files",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f19b6da7d0168a45a368cdfcbd78c9406e7ce665"
+        },
+        {
+            "date": "2025-03-26T19:09:33",
+            "title": "update Fraunces About page content, rephrase / typo fix",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "222b6b770ec416d2213570c6a82e62438eb712f3"
+        },
+        {
+            "date": "2025-03-26T18:49:41",
+            "title": "add \"math\" subset to the Noto Serif project",
+            "author": "Chris Simpkins",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6959eaaba0ddd1c237457e21548003d7f506e024"
+        },
+        {
+            "date": "2025-03-26T14:16:00",
+            "title": "Merge pull request #9140 from google/bios-for-menbere-and-agbalumo",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "ee3eba1f6a6be09d71d688f0e2f4b27f2c795c42"
+        },
+        {
+            "date": "2025-03-26T11:02:01",
+            "title": "Merge pull request #9259 from felipesanches/populate_config_yaml_field_for_a_few_families",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6a98a984c7838a7b7d5b3314e400eeb79f23afd0"
+        },
+        {
+            "date": "2025-03-26T10:24:06",
+            "title": "Merge pull request #9247 from google/gftools_packager_ofl_librebaskerville",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "c742a26611c355c526a351b9ac879144ee7bff18"
+        },
+        {
+            "date": "2025-03-26T04:29:02",
+            "title": "PPS i18n YouTube video added to articles",
+            "author": "Viviana Monsalve",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "f691a6fb9a124178d9ce490af9192cdd8128b24b"
+        },
+        {
+            "date": "2025-03-25T05:56:06",
+            "title": "[METADATA.pb] Populate font sources related fields for a few font families.",
+            "author": "Felipe Corr\u00eaa da Silva Sanches",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "53995c52af8d7aed9e0139a9de537fbd4b8ed1a8"
         },
         {
             "date": "2025-03-24T17:46:45",
@@ -288,30 +616,6 @@
             "status": "modified",
             "kind": "infrastructure",
             "id": "99783651b9e391fab22821ee55f39fe9891e030f"
-        },
-        {
-            "date": "2025-03-24T15:49:05",
-            "title": "Install interpolatable",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "af4281e88a920309d3cf3fa35cfce16fbd40cefe"
-        },
-        {
-            "date": "2025-03-24T15:26:41",
-            "title": "Rust CI fixups",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "97da03ec86c89822431a15c025033babc4e9014c"
-        },
-        {
-            "date": "2025-03-24T14:55:28",
-            "title": "Attempt to use Rust QA tooling",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "add4cafe1c8f0b9bfe4739971f2a4c8894068b1e"
         },
         {
             "date": "2025-03-21T16:40:06",
@@ -326,8 +630,16 @@
             "title": "Update to_production.txt",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "b0a6d9a681eb2fa42b86b0f78270198d586afa7e"
+        },
+        {
+            "date": "2025-03-21T13:35:26",
+            "title": "Update OFL.txt",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "1fee23aceb88190a096292788d35bf7ca0d03968"
         },
         {
             "date": "2025-03-21T13:05:45",
@@ -336,6 +648,22 @@
             "status": "modified",
             "kind": "infrastructure",
             "id": "b77a1c3ebb45dbfc6d19def606b9684144250fe8"
+        },
+        {
+            "date": "2025-03-21T10:46:21",
+            "title": "Epunda Sans - Update families.csv",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "b0fae7525b69b7fc6e0208ea20f6c660b03b11e7"
+        },
+        {
+            "date": "2025-03-21T10:30:32",
+            "title": "Libre Baskerville: Version 1.051; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "family",
+            "id": "5c60bbadcb623a3fd926b5a7454ca1d63f75606e"
         },
         {
             "date": "2025-03-20T10:17:01",
@@ -1486,8 +1814,16 @@
             "title": "Fix CI paths",
             "author": "Simon Cozens",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "designer",
             "id": "4ca6d9253e8fe8b76eac6c2b3c9a0d2fecf2916e"
+        },
+        {
+            "date": "2025-03-04T15:31:57",
+            "title": "Bios for Menbere and Agbalumo",
+            "author": "Yanone",
+            "status": "modified",
+            "kind": "designer",
+            "id": "c82066a640ce3d28c66382b90b0d1dcff5fcb89d"
         },
         {
             "date": "2025-03-04T14:01:24",
@@ -81867,8 +82203,285 @@
         }
     ],
     "pushes": {
-        "sandbox": [],
+        "sandbox": [
+            {
+                "path": "ofl/cascadiacode",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9226"
+            },
+            {
+                "path": "ofl/cascadiamono",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9227"
+            },
+            {
+                "path": "ofl/comicrelief",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9075"
+            },
+            {
+                "path": "ofl/tagesschrift",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8735"
+            },
+            {
+                "path": "ofl/librebaskerville",
+                "category": "Upgrade",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9247"
+            },
+            {
+                "path": "catalog/designers/alemetadesse",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9140"
+            },
+            {
+                "path": "catalog/designers/columntype",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9140"
+            },
+            {
+                "path": "catalog/designers/gunjanpanchal",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9272"
+            },
+            {
+                "path": "catalog/designers/jeffdavis",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9074"
+            },
+            {
+                "path": "catalog/designers/poojasaxena",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9229"
+            },
+            {
+                "path": "catalog/designers/raphaelalegbeleye",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9140"
+            },
+            {
+                "path": "catalog/designers/yikunoamlakayalew",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9140"
+            },
+            {
+                "path": "catalog/designers/yorlmarcampos",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9166"
+            },
+            {
+                "path": "ofl/fraunces",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9264"
+            },
+            {
+                "path": "ofl/notoserif",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9263"
+            },
+            {
+                "path": "ofl/playpensans",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9262"
+            },
+            {
+                "path": "ofl/playpensansarabic",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9262"
+            },
+            {
+                "path": "ofl/playpensanshebrew",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9262"
+            },
+            {
+                "path": "ofl/playpensansthai",
+                "category": "Metadata / Description / License",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9262"
+            },
+            {
+                "path": "lang/languages/agq_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/apd_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/bap_Krai.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/8509"
+            },
+            {
+                "path": "lang/languages/bax_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/buc_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/cu_Cyrl.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/djc_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/dv_Diak.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/dzg_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/ema_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/en_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/gby_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/gvl_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/lom_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/mg_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/nl_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/nmn_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/shu_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/snk_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/tda_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/ttq_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/tum_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/wdt_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/languages/yo_Latn.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            },
+            {
+                "path": "lang/scripts/Diak.textproto",
+                "category": "Sample texts",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9054"
+            }
+        ],
         "production": [
+            {
+                "path": "ofl/nationalpark",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9174"
+            },
+            {
+                "path": "ofl/specialgothic",
+                "category": "New",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9162"
+            },
             {
                 "path": "ofl/specialgothiccondensedone",
                 "category": "New",
@@ -81882,10 +82495,10 @@
                 "url": "https://github.com/google/fonts/pull/9171"
             },
             {
-                "path": "ofl/nanummyeongjo",
-                "category": "Upgrade",
+                "path": "ofl/winkyrough",
+                "category": "New",
                 "status": null,
-                "url": "https://github.com/google/fonts/pull/9136"
+                "url": "https://github.com/google/fonts/pull/9103"
             },
             {
                 "path": "ofl/notosansthailooped",
@@ -81894,16 +82507,22 @@
                 "url": "https://github.com/google/fonts/pull/9090"
             },
             {
+                "path": "catalog/designers/andreaherstowski",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9194"
+            },
+            {
+                "path": "catalog/designers/benhoepner",
+                "category": "Designer profile",
+                "status": null,
+                "url": "https://github.com/google/fonts/pull/9201"
+            },
+            {
                 "path": "catalog/designers/seunbadejo",
                 "category": "Designer profile",
                 "status": null,
                 "url": "https://github.com/google/fonts/pull/9126"
-            },
-            {
-                "path": "ofl/42dotsans",
-                "category": "Metadata / Description / License",
-                "status": null,
-                "url": "https://github.com/google/fonts/pull/9045"
             },
             {
                 "path": "ofl/afacad",
