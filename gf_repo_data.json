@@ -1,301 +1,173 @@
 {
-    "last_run": "2025-04-07",
+    "last_run": "2025-04-14",
     "commits": [
         {
-            "date": "2025-04-06T02:01:52",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
+            "date": "2025-04-03T10:41:57",
+            "title": "Merge pull request #9300 from google/ci-fix",
+            "author": "Marc Foley",
+            "status": "new",
             "kind": "infrastructure",
-            "id": "a4aa3caad0df0f99506228585b6fd1ddeb33bb46"
+            "id": "a1cf1f820b0a4ad451aba7d391c352675dc6864c"
         },
         {
-            "date": "2025-04-05T02:09:09",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
+            "date": "2025-04-03T10:20:30",
+            "title": "rename dir to fix win runner",
+            "author": "Marc Foley",
             "status": "modified",
-            "kind": "infrastructure",
-            "id": "907d336854e31c8ae89f292c3d1d2d3e374c9478"
+            "kind": "designer",
+            "id": "63d38ed00e381dca5eb4bf2e34cf16c39f9a1858"
         },
         {
-            "date": "2025-04-04T02:12:31",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
+            "date": "2025-04-02T14:40:02",
+            "title": "Merge pull request #9221 from google/more-subsets",
+            "author": "Marc Foley",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "f47726f4f0b21521ed777724322539c32d7da61a"
+            "id": "8b76601711a65a398e62c051151952f87232d147"
         },
         {
-            "date": "2025-04-03T02:20:40",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
+            "date": "2025-04-02T14:35:57",
+            "title": "Merge pull request #9220 from google/missing-primary-scripts",
+            "author": "Marc Foley",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "40bd119b35e6d588c846a8dbde834555b00f5b1b"
+            "id": "cc250c972dca4d5f9f00faeef13bd68d2f104af0"
         },
         {
-            "date": "2025-04-02T02:37:42",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
+            "date": "2025-04-02T11:19:01",
+            "title": "Merge pull request #9295 from google/fontspectorall-main",
+            "author": "Simon Cozens",
+            "status": "new",
             "kind": "infrastructure",
-            "id": "3fdfe35760ae198d7515f273c7b864069042f5d4"
+            "id": "ee48f4be74f345d25eb2deb5533db64db9d003f8"
         },
         {
-            "date": "2025-04-01T07:55:13",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "352eaa0b429ffe2114c19f059bd7bdaaa0c1ca19"
-        },
-        {
-            "date": "2025-04-01T07:15:12",
-            "title": "Improve adding to branch",
+            "date": "2025-04-02T10:36:48",
+            "title": "Find database in correct location",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "5d00d26c44c876a59317bbdcfdd02400333b258f"
+            "id": "88d740809668851d6da483764092cd0d5dd84f3f"
         },
         {
-            "date": "2025-04-01T07:13:07",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "df873acf0042225514502e1e9a43040f5371684f"
-        },
-        {
-            "date": "2025-04-01T07:13:05",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "d1d95d623ba62c1a56969a24d7f8c645215fa97d"
-        },
-        {
-            "date": "2025-04-01T07:12:59",
-            "title": "Support LFS in the workflow run",
+            "date": "2025-04-02T10:33:33",
+            "title": "Don't rebuild fontspector dashboard on push",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "6bb2d2e45143934902eb20a91d8352790f2c005d"
+            "id": "d8ccdb4e64723b3143b6b538916e0073ac43ef3b"
         },
         {
-            "date": "2025-04-01T07:12:58",
-            "title": "Move fontspectordb to LFS",
+            "date": "2025-04-01T15:41:35",
+            "title": "Merge pull request #9290 from google/fontspector-ci-fix",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "infrastructure",
+            "id": "622203b1a1c8bc6958408630ddef38829ea690c3"
+        },
+        {
+            "date": "2025-04-01T14:46:05",
+            "title": "Don\u2019t keep database in main branch",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "c01e82c880d3f7f316aabf5ff559425b1254ab87"
+            "id": "1486feace42635fc0c4ec5834d949479a5162143"
         },
         {
-            "date": "2025-04-01T07:12:52",
-            "title": "Remove fontspector db",
+            "date": "2025-04-01T12:57:19",
+            "title": "Allow fontspector job to write back to repo",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "b206716585c8a99e9e705db4a33ff802601b72ba"
+            "id": "3c82dbd41f58488658e2371630e40da59e590401"
         },
         {
-            "date": "2025-04-01T07:12:50",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
+            "date": "2025-04-01T12:16:07",
+            "title": "Merge pull request #9288 from google/fontspector-dashboard",
+            "author": "Simon Cozens",
+            "status": "new",
+            "kind": "family",
+            "id": "4727cccded76ddae03347832a5248565ce5621d1"
+        },
+        {
+            "date": "2025-04-01T08:15:56",
+            "title": "Use lfs for DB",
+            "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "61dd4497ac1aed08b2f264c4ab317479b6efbd11"
+            "id": "86a6633e79695a213794b7f2f57c02e70050bd55"
         },
         {
-            "date": "2025-04-01T07:12:49",
+            "date": "2025-04-01T08:15:48",
             "title": "Separate build path and git path",
             "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "b7803ce5064ffdbe0c453a33e9a2d58205e22a5b"
+            "id": "c1192f558947f8c9ec3a8471ac98943ce83eb24e"
         },
         {
-            "date": "2025-04-01T07:12:48",
-            "title": "Cache SQL output",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "abdbd2d29d24d532852a6f50ee88f3be684707d9"
-        },
-        {
-            "date": "2025-04-01T07:12:47",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "05fdf3384674a8710b8eba77e3cd939511d18502"
-        },
-        {
-            "date": "2025-04-01T07:12:45",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "0dea8449f981d02faf23ff2a112cf6355a49efce"
-        },
-        {
-            "date": "2025-04-01T07:12:44",
-            "title": "Push correct path",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "242f0a4f52f80bee9f4825d77429bb8c2318cac5"
-        },
-        {
-            "date": "2025-04-01T07:12:43",
-            "title": "Rebuild dashboard",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "6cdc50f23f684ba8d060e4c2a4ec370ab00b0230"
-        },
-        {
-            "date": "2025-04-01T07:12:42",
+            "date": "2025-04-01T08:15:47",
             "title": "Add dashboard source",
             "author": "Simon Cozens",
-            "status": "new",
-            "kind": "infrastructure",
-            "id": "e57708ff3dac3ad98cd9f70880edf6445e966559"
-        },
-        {
-            "date": "2025-04-01T07:12:42",
-            "title": "Shoot for the moon",
-            "author": "Simon Cozens",
             "status": "modified",
             "kind": "infrastructure",
-            "id": "80ec294d79393597aa46a240ed3d5ddd904784a9"
+            "id": "7abd1df08c7745371af53ec5272e8016887edd3a"
         },
         {
-            "date": "2025-04-01T07:12:41",
-            "title": "Do a bit more, carry on on error",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "7122b7a773f7e580e9c67019c544b4f77e65f32b"
-        },
-        {
-            "date": "2025-04-01T07:12:40",
-            "title": "Just check *something*",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "e797a22f936e1864f6b149afd93c2fe4513d2581"
-        },
-        {
-            "date": "2025-04-01T07:12:40",
-            "title": "Protobuf",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "fb4162245e08a4683b454db916b6183ffc58a57b"
-        },
-        {
-            "date": "2025-04-01T07:12:39",
-            "title": "No swap on Mac",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "2598b1b161701161014424590b61cc7ed0aa7731"
-        },
-        {
-            "date": "2025-04-01T07:12:38",
-            "title": "Run on a Mac",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "604a0d82d7747eddf47aef3fb77a7bb45140b7f4"
-        },
-        {
-            "date": "2025-04-01T07:12:38",
-            "title": "Swapfile",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "22ade7f468c9b936baaa10c34410269510e00870"
-        },
-        {
-            "date": "2025-04-01T07:12:37",
-            "title": "Test all the things",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "b1b389248c7f7836c0c51dd1038036ce584518d7"
-        },
-        {
-            "date": "2025-04-01T07:12:36",
-            "title": "Just build and cache for now",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "b2eeb937c03cb22cc95b5cce6f71a7b2fded7943"
-        },
-        {
-            "date": "2025-04-01T07:12:36",
+            "date": "2025-04-01T08:15:47",
             "title": "Try to run fontspector on everything",
             "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "d1b044e9826557ea459b86f7f083dfb66501053e"
+        },
+        {
+            "date": "2025-04-01T08:08:33",
+            "title": "Merge pull request #9232 from google/gftools_packager_ofl_calsans",
+            "author": "Marc Foley",
             "status": "new",
-            "kind": "infrastructure",
-            "id": "36481b37a9f696e0068c8ef1bf05896ba2ff4e0a"
+            "kind": "family",
+            "id": "5f391bf0cec34413550070951c10cde414356652"
         },
         {
-            "date": "2025-04-01T07:12:35",
-            "title": "Move database to src",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "7c3e3fcf82e1c01a257a96e9cbc93ec2932f889f"
-        },
-        {
-            "date": "2025-04-01T07:12:34",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "0c4e442f9853309f5df0eb0da9bcbf6603945405"
-        },
-        {
-            "date": "2025-04-01T07:12:33",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "639a2ea1d31b831d44eb59faed7aa9c80f061915"
-        },
-        {
-            "date": "2025-04-01T07:12:32",
-            "title": "Apply automatic changes",
-            "author": "simoncozens",
+            "date": "2025-04-01T08:07:10",
+            "title": "Merge pull request #9240 from google/markdavis",
+            "author": "Marc Foley",
             "status": "new",
-            "kind": "infrastructure",
-            "id": "ec33e8b4ec74751f4daa1960ca61b9e9f661fa5c"
+            "kind": "designer",
+            "id": "33537df7bc5382ff14c16ae6507a2241be5d571f"
         },
         {
-            "date": "2025-04-01T07:12:31",
-            "title": "Install interpolatable",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "4ae5edc1cd6b42c01caaf0b5c18621185594e099"
+            "date": "2025-04-01T08:03:18",
+            "title": "Merge pull request #9241 from google/gftools_packager_ofl_epundaslab",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "bd1c4f4f94cc80acd044508f78f4988d10400bc5"
         },
         {
-            "date": "2025-04-01T07:12:30",
-            "title": "Rust CI fixups",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "905524a0677fa2413a46da4559b307d780085378"
+            "date": "2025-04-01T08:00:30",
+            "title": "Merge pull request #9246 from google/gftools_packager_ofl_epundasans",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "f1aace59300595e37a0da76df5bf6f3b55843d6c"
         },
         {
-            "date": "2025-04-01T07:12:30",
-            "title": "Attempt to use Rust QA tooling",
-            "author": "Simon Cozens",
-            "status": "modified",
-            "kind": "infrastructure",
-            "id": "fcebd365421a8406d11b8e86da756a658374d6dd"
+            "date": "2025-04-01T07:59:59",
+            "title": "Merge pull request #9274 from google/gftools_packager_ofl_coralpixels",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "family",
+            "id": "8637f8432b1b5c21ee388d3bdcb1ec0178cb872a"
+        },
+        {
+            "date": "2025-04-01T07:59:41",
+            "title": "Merge pull request #9250 from google/Calcominc",
+            "author": "Marc Foley",
+            "status": "new",
+            "kind": "designer",
+            "id": "d7c898d13a30e3a87dc42f14d3cae70340554e91"
         },
         {
             "date": "2025-04-01T05:15:10",
@@ -440,6 +312,46 @@
             "status": "modified",
             "kind": "family",
             "id": "6bc46b6c2ff794b53c736be433878e20d1a84729"
+        },
+        {
+            "date": "2025-03-28T08:55:38",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "edc0636b799a01a45e0c5cf6ca9959e13c740081"
+        },
+        {
+            "date": "2025-03-28T08:32:25",
+            "title": "update url issues",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "f628aed2de46dec89eacd5edeee08821fd3442f0"
+        },
+        {
+            "date": "2025-03-28T08:11:10",
+            "title": "update url in metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "6f7ab4e7aa75137573ab21975f0f6d35d32a2aff"
+        },
+        {
+            "date": "2025-03-28T08:11:00",
+            "title": "Add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "d5485e4eba416975e5ad3ca851ccb1ab0407f450"
+        },
+        {
+            "date": "2025-03-28T07:54:03",
+            "title": "Coral Pixels: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "c7ee9d632044c05b2fc0561f05334b03e088cef6"
         },
         {
             "date": "2025-03-27T23:23:16",
@@ -646,8 +558,16 @@
             "title": "Merge pull request #9236 from google/pushlists",
             "author": "Emma Marichal",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "designer",
             "id": "b77a1c3ebb45dbfc6d19def606b9684144250fe8"
+        },
+        {
+            "date": "2025-03-21T12:49:48",
+            "title": "add designer: Cal.com Inc.",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "designer",
+            "id": "35e4666fb218b860e07b83d358cf4b888f24111f"
         },
         {
             "date": "2025-03-21T10:46:21",
@@ -658,6 +578,22 @@
             "id": "b0fae7525b69b7fc6e0208ea20f6c660b03b11e7"
         },
         {
+            "date": "2025-03-21T10:33:45",
+            "title": "article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "a8fb565efc50179228ebfe09aaac9ae8381d71ff"
+        },
+        {
+            "date": "2025-03-21T10:30:44",
+            "title": "copyright added in metadata",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "c52fc6efb4540b40559d0d08d77651d1cb7151ec"
+        },
+        {
             "date": "2025-03-21T10:30:32",
             "title": "Libre Baskerville: Version 1.051; ttfautohint (v1.8.4.7-5d5b) added",
             "author": "Yanone",
@@ -666,12 +602,60 @@
             "id": "5c60bbadcb623a3fd926b5a7454ca1d63f75606e"
         },
         {
+            "date": "2025-03-21T10:29:46",
+            "title": "Epunda Sans: Version 2.204 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "27967bdbb515d7390c6c6069a34a64e870c5e2aa"
+        },
+        {
+            "date": "2025-03-20T13:56:53",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "52c71027c6a6c3e34c060ff993c4316bcf8c4ece"
+        },
+        {
+            "date": "2025-03-20T13:51:54",
+            "title": "Add article",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "7d9c9b603a89f0e2446219650aa3adb3606520fc"
+        },
+        {
+            "date": "2025-03-20T10:54:30",
+            "title": "Epunda Slab: Version 1.102 added",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "1199401b6ca88c21fcda2719e4d6fc8459d57cc7"
+        },
+        {
+            "date": "2025-03-20T10:33:30",
+            "title": "Add designer: Mark Davis",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "designer",
+            "id": "3b31a891882912ec107b90baf340e5654eb4a1ad"
+        },
+        {
             "date": "2025-03-20T10:17:01",
             "title": "Merge pull request #9237 from google/PPS-i18n-articles",
             "author": "Emma Marichal",
-            "status": "new",
-            "kind": "infrastructure",
+            "status": "modified",
+            "kind": "family",
             "id": "4a8286d1e5ee2b3defb8a7f7847587542f079778"
+        },
+        {
+            "date": "2025-03-20T10:04:19",
+            "title": "Update METADATA.pb",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "caac7d3e6446b4d3ec389bbcdf0f4701c0588e05"
         },
         {
             "date": "2025-03-20T01:45:36",
@@ -686,8 +670,24 @@
             "title": "PPS LGC + Thai emojis fix",
             "author": "Viviana Monsalve",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "15bffea98472a28e62726faff03722e251ee4429"
+        },
+        {
+            "date": "2025-03-19T17:16:14",
+            "title": "smaller .gif",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "20b536340b900ac34edf1ab74d6c4ae6c4816e91"
+        },
+        {
+            "date": "2025-03-19T17:05:32",
+            "title": "article (add images)",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "family",
+            "id": "8a787f49c9f405f8e10b5beb4bacfc5a2736aa76"
         },
         {
             "date": "2025-03-19T16:31:40",
@@ -702,8 +702,24 @@
             "title": "Update to_production.txt (#9234)",
             "author": "nyshadhr9",
             "status": "modified",
-            "kind": "infrastructure",
+            "kind": "family",
             "id": "c7d7cac1ef1ae29f92569c4a45aff2ab04d83e4b"
+        },
+        {
+            "date": "2025-03-19T15:25:21",
+            "title": "add description",
+            "author": "Emma Marichal",
+            "status": "modified",
+            "kind": "infrastructure",
+            "id": "cc8a89c19412ba875c9d4ee387637aeaaca65210"
+        },
+        {
+            "date": "2025-03-19T14:27:00",
+            "title": "Cal Sans: Version 1.000; ttfautohint (v1.8.4.7-5d5b) added",
+            "author": "Emma Marichal",
+            "status": "new",
+            "kind": "family",
+            "id": "59e4eb6ee81211a71f5ac89a94323e1014f943cf"
         },
         {
             "date": "2025-03-19T14:14:50",
@@ -925,9 +941,25 @@
             "date": "2025-03-18T09:36:11",
             "title": "Merge pull request #9219 from google/tags-all",
             "author": "Marc Foley",
-            "status": "new",
+            "status": "modified",
             "kind": "infrastructure",
             "id": "c32bcc24bdd7f34942670009f037fdd56079f365"
+        },
+        {
+            "date": "2025-03-17T16:00:50",
+            "title": "Found some more subsets",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "84f7346a75ee122221399c085b1762ee72abb43c"
+        },
+        {
+            "date": "2025-03-17T13:40:05",
+            "title": "Primary scripts identified by Dave/Chris/Simon review",
+            "author": "Simon Cozens",
+            "status": "modified",
+            "kind": "family",
+            "id": "8b70d4c3465ad23848a385f8cb23426d0f2fe7ee"
         },
         {
             "date": "2025-03-17T13:31:34",
