@@ -27,7 +27,6 @@ jobs:
       contents: 'read'
       id-token: 'write'
       issues: 'read'
-      pull-requests: 'read'
     steps:
       - name: 'Get repository labels'
         id: 'get_labels'
@@ -110,7 +109,6 @@ jobs:
     permissions:
       contents: 'read'
       issues: 'write'
-      pull-requests: 'write'
     steps:
       - name: 'Mint identity token'
         id: 'mint_identity_token'
