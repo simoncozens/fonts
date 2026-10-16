@@ -68,7 +68,16 @@ Now we are looking for font sources files, not just binaries.
 4. Determine if it is a `googlefonts-project-template` (check for Makefile, requirements.in, config*.y*ml, or specific README text: `Repository Layout` section in `README.md` containing the text `This font repository structure is inspired by Unified Font Repository`). Report whether or not this is a googlefonts-project-template based repository in your final comment.
 5. Check for font sources (.ufo, .designspace, .glyphs preferred). If only .sfd, .fcp, .vfb, .vfc, or .vfj, tag with `X fontforge/fontlab/fontcreator`. If no source files, tag with `X Missing sources` and comment asking the user to provide sources in a preferred format.
 
-### Step 4: Finalization
+### Step 4: Binary checks
+
+1. If there are binary font files present, download them and run the following command on them:
+
+    fontspector --profile googlefonts -c glyph_coverage --json - <full-path-to-binary-font-files>
+
+This will determine if the font covers the complete Latin Core glyphset. If it does not, include this information (with the missing glyphs) in your final comment.
+fontspector is a self-contained Rust binary and has already been installed on the system.
+
+### Step 5: Finalization
 1. Summarize findings in a final comment, including:
     - Is it a googlefonts-project-template?
     - Does it contain font source files?
