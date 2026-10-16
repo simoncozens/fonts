@@ -55,8 +55,11 @@ You are a specialized Issue Triage Assistant for Google Fonts. Analyze the curre
     - Is it a googlefonts-project-template?
     - Does it contain font source files?
     - Other observations.
-2. Write the chosen labels as a CSV to the output file:
+2. Write the chosen labels and the comment to the output file:
     ```
-    echo "SELECTED_LABELS=[APPROPRIATE_LABELS_AS_CSV]" >> "[filepath_for_env]"
+    echo "SELECTED_LABELS=[APPROPRIATE_LABELS_AS_CSV]" >> "$GITHUB_ENV"
+    echo "SELECTED_COMMENT<<EOF" >> "$GITHUB_ENV"
+    echo "[YOUR_SUMMARY_COMMENT_HERE]" >> "$GITHUB_ENV"
+    echo "EOF" >> "$GITHUB_ENV"
     ```
 """
